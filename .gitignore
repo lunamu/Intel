@@ -1,0 +1,35 @@
+# 忽略所有文件
+*
+
+# 不忽略 .py 文件
+!*.py
+
+# 不忽略 .cfg 文件
+!*.cfg
+
+# 不忽略 .gitignore 文件本身
+!.gitignore
+
+# 忽略 __pycache__ 目录
+__pycache__/
+
+# 忽略 .pyc 文件（Python 编译文件）
+*.pyc
+
+# 忽略 .pyo 文件（Python 优化文件）
+*.pyo
+
+# 忽略 .pyd 文件（Python 动态链接库）
+*.pyd
+
+# 忽略 .so 文件（共享对象文件，通常是 C 扩展）
+*.so
+
+# 忽略 .egg 文件和目录（Python 分发格式）
+*.egg
+*.egg-info/
+
+# 忽略虚拟环境目录
+venv/
+env/
+.venv/
